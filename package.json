@@ -1,0 +1,17 @@
+{
+  "name": "spotify-history-visualizer",
+  "version": "2.0.0",
+  "private": true,
+  "description": "Herramienta de análisis interactivo y Spotify Wrapped para historial extendido de streaming RGPD",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "vite": "^5.0.12"
+  },
+  "dependencies": {
+    "three": "^0.186.1"
+  }
+}

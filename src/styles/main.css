@@ -1,0 +1,111 @@
+/* ==========================================================================
+   Spotify DataLab - Core Design Tokens & Animations
+   ========================================================================== */
+
+:root {
+  --color-spotify: #1DB954;
+  --color-spotify-hover: #1ed760;
+  --color-spotify-dark: #14833b;
+  --color-surface-base: #0a0a0c;
+  --color-surface-card: #16161a;
+  --color-surface-card-hover: #1f1f24;
+  --color-surface-border: #27272e;
+  --color-surface-muted: #7e7e8d;
+}
+
+body {
+  background-color: var(--color-surface-base);
+  color: #f3f4f6;
+  font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  overflow-x: hidden;
+}
+
+/* Custom Scrollbars */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #111114;
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--color-surface-border);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--color-spotify);
+}
+
+/* Glassmorphism & Neon Shadows */
+.spotify-glow {
+  box-shadow: 0 0 35px -8px rgba(29, 185, 84, 0.35);
+}
+
+.glass-card {
+  background: rgba(22, 22, 26, 0.78);
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+  border: 1px solid rgba(255, 255, 255, 0.06);
+}
+
+.glass-card:hover {
+  border-color: rgba(29, 185, 84, 0.3);
+}
+
+/* Wrapped Animations */
+@keyframes pulse-slow {
+  0%, 100% {
+    transform: scale(1);
+    opacity: 0.8;
+  }
+  50% {
+    transform: scale(1.08);
+    opacity: 1;
+  }
+}
+
+.animate-pulse-slow {
+  animation: pulse-slow 5s ease-in-out infinite;
+}
+
+@keyframes float-shape {
+  0%, 100% {
+    transform: translate(0px, 0px) rotate(0deg);
+  }
+  33% {
+    transform: translate(25px, -20px) rotate(8deg);
+  }
+  66% {
+    transform: translate(-20px, 15px) rotate(-6deg);
+  }
+}
+
+.animate-float {
+  animation: float-shape 9s ease-in-out infinite alternate;
+}
+
+.wrapped-slide {
+  background: transparent !important;
+}
+
+.wrapped-slide-active {
+  display: flex !important;
+  opacity: 1 !important;
+  transform: scale(1) translateY(0) !important;
+}
+
+/* Acidwave Frosted Glass Panels */
+.acid-glass {
+  background: rgba(10, 10, 16, 0.45);
+  backdrop-filter: blur(20px) saturate(180%);
+  -webkit-backdrop-filter: blur(20px) saturate(180%);
+  border: 1px solid rgba(255, 255, 255, 0.16);
+  box-shadow: 0 16px 40px -10px rgba(0, 0, 0, 0.65), inset 0 1px 0 0 rgba(255, 255, 255, 0.2);
+}
+
+.acid-card-glow {
+  box-shadow: 0 0 50px -10px rgba(0, 220, 255, 0.35), 0 0 30px -5px rgba(255, 0, 128, 0.25);
+}

@@ -1,0 +1,22 @@
+# Dependencies
+node_modules/
+package-lock.json
+
+# Production build
+dist/
+build/
+
+# Backups and temp
+.backup/
+*.tmp
+
+# CRITICAL: Spotify Personal Streaming History (RGPD Data)
+Spotify Extended Streaming History/
+Streaming_History_*.json
+ReadMeFirst_ExtendedStreamingHistory.pdf
+*.pdf
+
+# Environment & OS
+.env*
+.DS_Store
+Thumbs.db
