@@ -2,9 +2,12 @@
 
 > An interactive, 100% private, client-side dashboard and 3D visualizer for your full **Spotify Extended Streaming History** (GDPR export).
 
+[![Live Demo](https://img.shields.io/badge/demo-Live_App-brightgreen.svg?style=for-the-badge)](https://arnau10a.github.io/spotify-history-visualizer/)
 ![License](https://img.shields.io/badge/license-MIT-green.svg)
 ![React / Vite](https://img.shields.io/badge/built_with-Vite_%7C_Three.js-blue.svg)
 ![Privacy](https://img.shields.io/badge/data_privacy-100%25_client--side-brightgreen.svg)
+
+🌐 **Live Demo:** [arnau10a.github.io/spotify-history-visualizer](https://arnau10a.github.io/spotify-history-visualizer/)
 
 ---
 
@@ -28,7 +31,9 @@
 3. Spotify will email you a `.zip` archive (usually within a few days).
 4. Extract the `.zip` archive containing files named `Streaming_History_Audio_YYYY_X.json`.
 
-### 2. Run the Visualizer Locally
+### 2. Run the Visualizer
+
+You can use the live web app directly at **[arnau10a.github.io/spotify-history-visualizer](https://arnau10a.github.io/spotify-history-visualizer/)** or run it locally:
 
 ```bash
 # Clone the repository
