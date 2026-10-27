@@ -11,12 +11,28 @@
 
 ---
 
+## 📸 Screenshots
+
+### 📊 Interactive Analytics Dashboard
+*Explore metrics, total play hours, top artists, tracks, and hourly listening trends.*
+![Analytics Dashboard](docs/screenshots/dashboard.png)
+
+### 🎁 Custom Spotify Wrapped & Stories
+*Generate customized Spotify Wrapped slides for any specific year or for your entire lifetime history.*
+![Wrapped Stories Modal](docs/screenshots/wrapped.png)
+
+### 🌌 3D Synthwave Landing & Dropzone
+*Built with Three.js 3D canvas and instant client-side file upload (with Demo Data mode included).*
+![Landing Screen](docs/screenshots/landing.png)
+
+---
+
 ## ✨ Features
 
 - **🌐 100% Private & Client-Side**: Your streaming data never leaves your computer. All processing happens locally in your browser using **Web Workers** for ultra-fast parsing without freezing the UI.
 - **🌌 3D Acidwave / Synthwave Canvas**: Interactive 3D scene built with **Three.js** that responds to your listening stats.
 - **📅 Custom Year & Lifetime Wrapped**: Relive your own personalized Spotify Wrapped for any year or for your entire listening history since day one.
-- **🟩 GitHub-style Activity Heatmap**: Visual map of your daily and hourly listening habits throughout the years.
+- **🟩 Activity Trends & Heatmaps**: Visual distribution of your daily and hourly listening habits throughout the years.
 - **📊 Year-over-Year Comparator**: Compare metrics between different years (total hours, top artists, shifts in musical taste).
 - **🔍 Deep Item Inspector**: Drill down into specific artists, tracks, and listening peaks.
 - **📤 Export & Share**: Export clean statistics and summary cards.
@@ -33,7 +49,7 @@
 
 ### 2. Run the Visualizer
 
-You can use the live web app directly at **[arnau10a.github.io/spotify-history-visualizer](https://arnau10a.github.io/spotify-history-visualizer/)** or run it locally:
+You can use the live web app directly at **[arnau10a.github.io/spotify-history-visualizer](https://arnau10a.github.io/spotify-history-visualizer/)** (click *"Cargar Datos Demo"* if you just want to test it out with sample data), or run it locally:
 
 ```bash
 # Clone the repository
